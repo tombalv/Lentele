@@ -33,7 +33,7 @@ function count() {
   const rowData = [];
   const summaryData = [];
 
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 6; i++) {
     const col2 = parseInt(document.getElementById(`row${i}col2`).innerHTML);
     const col3 = parseInt(document.getElementById(`row${i}col3`).innerHTML);
     const col4 = parseFloat(document.getElementById(`row${i}col4`).innerHTML);
