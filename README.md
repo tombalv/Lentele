@@ -1,5 +1,3 @@
-# Lentele
-Table
 Užduotis:
 Yra lentelė kuris sudideda iš
 - Header eilutės
