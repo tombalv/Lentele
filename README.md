@@ -1,22 +1,22 @@
-Užduotis:
-Yra lentelė kuris sudideda iš
-- Header eilutės
-- 7 rows eilučių
-- 5 stulpeliai
-- Pirmas stulpelis neturi skaitinių verčių (gali būti pa)
-- 2-3 stulpelis turi tik integer tipo skaičius
-- 4-5 stulpelis turi tik float tipo skaičius
-- 5-6 eilutės turi skaitines vertes kurios niekada nesikeičia ir gali būti pažymėtos kažkokios pastelinės spalvos fonu
-- 7 eilutė naudojama kaip Summary (sumos) eilutė
-- Stiliukas: alternaing-line duomenų laukam, kažkoks stilius header ir summary eilutėms
+Task:
+There is a table which consists of
+- Header lines
+- 7 rows
+- 5 columns
+- The first column has no numeric values (can be pa)
+- Column 2-3 has only integer type numbers
+- Column 4-5 has only float type numbers
+- Lines 5-6 have numerical values that never change and can be marked with some kind of pastel background
+- Line 7 is used as the Summary line
+- Style: alternating-line for data field, some style for header and summary lines
 
-Po lentele yra 2 mygtukai: Perkrauk , Automatinis perkrovimas
+Under the table there are 2 buttons: Reload , Automatic reload
 
-Nuspaudus mygtuką Perkrauk:
-- Naudojantis javascriptu po paspaudimo turėtų pasikeisti 1- 4 eilučių stulpelių skaitinės reikšmės (random)
-- Įvykti perskaičiavimas kartu įtraukiant 5-6 eilutes
-- Summary eilutė atlieka perskaičiavimus pagal 1-6 eilučių turinį
+After pressing the Reload button:
+- When using javascript, the numeric values of columns 1-4 should change after clicking (random)
+- A recalculation takes place by including 5-6 rows
+- The Summary line performs recalculations based on the content of lines 1-6
 
-Nuspaudus mygtuką Automatinis perkrovimas:
-- Daro tą patį ka daro mygtukas perkrauk, tačiau automatiškai atnaujina kas 10 sekundžių
-- Nuspaudus mygtuką Perkrauk automatinis perkrovimas sustoja
+After pressing the Auto Reload button:
+- Does the same thing as the reload button, but automatically refreshes every 10 seconds
+- Pressing the Reload button stops the automatic reload
